@@ -1,0 +1,9 @@
+﻿<div class="droparea text-center" style="width: 300px; height: 300px; margin:auto">
+    <img class="img-fluid rounded border border-dark"
+         src="{{ url_for('static', filename='input/' + filename) }}"
+         alt="{{ filepath }}"
+         style="height: 100%; width: 100%; object-fit: contain; margin:auto">
+</div>
+<br />
+<p class="text-center">It looks like a {{ species }}.</p>
+<p class="text-center">Could be a {{ breed }}.</p>
