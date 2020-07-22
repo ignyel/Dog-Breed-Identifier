@@ -63,4 +63,4 @@ def favicon():
 
 if __name__ == '__main__':
     # Do not edit.
-    app.run(debug=False, threaded=False)
+    app.run(host='0.0.0.0', port=3001, debug=False, threaded=False)
